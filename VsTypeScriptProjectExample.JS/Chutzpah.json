@@ -1,0 +1,18 @@
+﻿{
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  },
+  "Tests": [ { "Includes": [ "*.ts" ] } ],
+  "Framework": "jasmine",
+  "References": [
+    {
+      "Includes": [
+        "../../vstypescriptprojectexample/scripts/hello-world.ts",
+        "../../vstypescriptprojectexample/scripts/hello-world.js"
+      ]
+    }
+  ],
+  "CodeCoverageExcludes": [ "*.ts" ]
+}
